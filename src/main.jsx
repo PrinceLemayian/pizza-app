@@ -67,7 +67,14 @@ function Menu() {
       <Pizza />
       <Pizza />
       <Pizza />
+      <Footer />
     </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer>{new Date().toLocaleTimeString()}. We're currently open</footer>
   );
 }
 
