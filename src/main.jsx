@@ -101,7 +101,7 @@ function Pizza() {
   return (
     <div>
       <img src="pizzas/prosciutto.jpg" alt="prosciutto pizza" />
-      <h2>Pizza Prosciutto</h2>
+      <h3>Pizza Prosciutto</h3>
       <p>Tomato, mozarella, ham, aragula, and burrata cheese</p>
     </div>
   );
